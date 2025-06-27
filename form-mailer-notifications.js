@@ -2,15 +2,12 @@
  * Triggered when a Google Form is submitted.
  * Sends an email notification with the submitted responses in an HTML table format.
  * @author Jason Coy, NTSH.co © 2025
- * @file form-mailer-notifications.gs (Library Script)
+ * @file form-mailer-notifications.gs (Library Script) / form-mailer-notifications.js (Library Script)
  * @type Google Apps Script
  * @reference https://developers.google.com/apps-script/
- * @description This script is designed to be used with Google Forms to send an email notification. Companion script "fmn-runLibrary.gs"
+ * @description This script is designed to be used with Google Forms to send an email notification. Companion script "runLibrary.gs/runLibrary.js" is used to run this script as a library.
  * @version 1.0
  * 
- */
-
-/**
  * This script is designed to send an email notification when a Google Form is submitted.
  * It retrieves the form responses, formats them into an HTML table, and sends an email to the specified recipients.
  * The script also includes a mode switch (TEST/PROD) to control the email subject and recipients.
